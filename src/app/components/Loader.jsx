@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import logo from "../images/logo.jpg"
 
 const Loader = () => {
   const variants = {
@@ -18,7 +19,7 @@ const Loader = () => {
   return (
     <div className="h-screen w-screen bg-white flex flex-col items-center justify-center gap-8">
       <img
-        src="https://res.cloudinary.com/dlriiwcsn/image/upload/v1731254698/Coder_s_Cup_24_Logo_With_Sponsors_qyhl7g.png"
+        src={logo}
         alt="Coders Cup Logo"
         className="h-52 w-auto"
       />

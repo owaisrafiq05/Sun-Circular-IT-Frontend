@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
 import Footer from "./components/Footer";
 
+// Import Geist Sans and Mono fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -24,28 +25,33 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 5000); // 5 seconds
+    }, 5000); // Loader duration: 5 seconds
 
-    return () => clearTimeout(timer); // Cleanup the timer on unmount
+    return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);
 
   return (
     <html lang="en">
+      <head>
+        <style>
+          @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+        </style>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* Display Loader for 5 seconds */}
+        {/* Loader */}
         {isLoading ? (
           <Loader />
         ) : (
           <>
             {/* Global Navbar */}
             <Navbar />
-            
-            {/* Page Content */}
-            {children}
-            
 
+            {/* Main Content */}
+            <main className="min-h-screen">{children}</main>
+
+            {/* Global Footer */}
             <Footer />
           </>
         )}

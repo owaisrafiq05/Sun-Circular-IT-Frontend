@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useState } from "react";
 import { IoIosArrowDropdown } from "react-icons/io";
@@ -11,14 +11,16 @@ export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-teal-500">
+    <nav className="bg-teal-500 sticky top-0 z-50 font-montserrat">
       <div className="container mx-auto py-8 px-4 lg:px-0">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="text-white text-xl md:text-2xl lg:text-3xl font-bold">Circular IT group</div>
+          <div className="text-white text-xl md:text-2xl lg:text-3xl font-bold">
+            Circular IT group
+          </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="lg:hidden text-white text-3xl transition-transform duration-300"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -27,18 +29,19 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden lg:flex items-center space-x-8">
-            <div className="group">
+            {/* Circular IT Dropdown */}
+            <div className="group relative">
               <button
                 onMouseEnter={() => setOpenDropdown("Circular IT")}
                 className="text-white text-2xl font-semibold hover:text-[#EEEEEE] flex justify-center items-center gap-x-2"
               >
                 Circular IT <IoIosArrowDropdown />
               </button>
-              <div 
+              <div
                 onMouseLeave={() => setOpenDropdown(null)}
-                className={`fixed top-[100px] left-0 right-0 bg-white shadow-lg py-6 transition-all duration-300 ease-in-out transform origin-top ${
-                  openDropdown === "Circular IT" 
-                    ? "opacity-100 scale-y-100" 
+                className={`fixed top-[100px] left-0 w-full bg-white shadow-lg py-6 transition-all duration-300 ease-in-out transform origin-top ${
+                  openDropdown === "Circular IT"
+                    ? "opacity-100 scale-y-100"
                     : "opacity-0 scale-y-0 pointer-events-none"
                 }`}
               >
@@ -55,18 +58,19 @@ export default function Navbar() {
               </div>
             </div>
 
-            <div className="group">
+            {/* Portfolio Dropdown */}
+            <div className="group relative">
               <button
                 onMouseEnter={() => setOpenDropdown("Portfolio")}
                 className="text-white text-2xl font-semibold hover:text-[#EEEEEE] flex justify-center items-center gap-x-2"
               >
                 Portfolio <IoIosArrowDropdown />
               </button>
-              <div 
+              <div
                 onMouseLeave={() => setOpenDropdown(null)}
-                className={`fixed top-[100px] left-0 right-0 bg-white shadow-lg py-6 transition-all duration-300 ease-in-out transform origin-top ${
-                  openDropdown === "Portfolio" 
-                    ? "opacity-100 scale-y-100" 
+                className={`fixed top-[100px] left-0 w-full bg-white shadow-lg py-6 transition-all duration-300 ease-in-out transform origin-top ${
+                  openDropdown === "Portfolio"
+                    ? "opacity-100 scale-y-100"
                     : "opacity-0 scale-y-0 pointer-events-none"
                 }`}
               >
@@ -76,10 +80,10 @@ export default function Navbar() {
                       IT recycling <FaArrowRight className="inline-block" />
                     </div>
                     <div className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2">
-                      IT assest management <FaArrowRight className="inline-block" />
+                      IT asset management <FaArrowRight className="inline-block" />
                     </div>
                     <div className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2">
-                      IT assest disposition <FaArrowRight className="inline-block" />
+                      IT asset disposition <FaArrowRight className="inline-block" />
                     </div>
                   </div>
                 </div>
@@ -98,11 +102,11 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        <div 
+        <div
           className={`lg:hidden transition-all duration-300 ease-in-out transform ${
-            isMobileMenuOpen 
-              ? 'opacity-100 translate-y-0 max-h-[1000px]' 
-              : 'opacity-0 -translate-y-4 max-h-0'
+            isMobileMenuOpen
+              ? "opacity-100 translate-y-0 max-h-[1000px]"
+              : "opacity-0 -translate-y-4 max-h-0"
           } overflow-hidden`}
         >
           <div className="flex flex-col space-y-4 pt-6">
@@ -111,18 +115,18 @@ export default function Navbar() {
                 onClick={() => setOpenDropdown(openDropdown === "Circular IT" ? null : "Circular IT")}
                 className="text-white text-xl font-semibold w-full text-left flex items-center justify-between"
               >
-                Circular IT 
-                <IoIosArrowDropdown 
+                Circular IT
+                <IoIosArrowDropdown
                   className={`transform transition-transform duration-300 ${
-                    openDropdown === "Circular IT" ? 'rotate-180' : ''
-                  }`} 
+                    openDropdown === "Circular IT" ? "rotate-180" : ""
+                  }`}
                 />
               </button>
-              <div 
+              <div
                 className={`transition-all duration-300 ease-in-out transform origin-top overflow-hidden ${
-                  openDropdown === "Circular IT" 
-                    ? 'opacity-100 max-h-[500px]' 
-                    : 'opacity-0 max-h-0'
+                  openDropdown === "Circular IT"
+                    ? "opacity-100 max-h-[500px]"
+                    : "opacity-0 max-h-0"
                 }`}
               >
                 <div className="bg-teal-600 mt-2 p-4">
@@ -143,18 +147,18 @@ export default function Navbar() {
                 onClick={() => setOpenDropdown(openDropdown === "Portfolio" ? null : "Portfolio")}
                 className="text-white text-xl font-semibold w-full text-left flex items-center justify-between"
               >
-                Portfolio 
-                <IoIosArrowDropdown 
+                Portfolio
+                <IoIosArrowDropdown
                   className={`transform transition-transform duration-300 ${
-                    openDropdown === "Portfolio" ? 'rotate-180' : ''
-                  }`} 
+                    openDropdown === "Portfolio" ? "rotate-180" : ""
+                  }`}
                 />
               </button>
-              <div 
+              <div
                 className={`transition-all duration-300 ease-in-out transform origin-top overflow-hidden ${
-                  openDropdown === "Portfolio" 
-                    ? 'opacity-100 max-h-[500px]' 
-                    : 'opacity-0 max-h-0'
+                  openDropdown === "Portfolio"
+                    ? "opacity-100 max-h-[500px]"
+                    : "opacity-0 max-h-0"
                 }`}
               >
                 <div className="bg-teal-600 mt-2 p-4">
@@ -163,10 +167,10 @@ export default function Navbar() {
                       IT recycling <FaArrowRight className="inline-block" />
                     </div>
                     <div className="text-white text-lg font-semibold flex items-center gap-x-2">
-                      IT assest management <FaArrowRight className="inline-block" />
+                      IT asset management <FaArrowRight className="inline-block" />
                     </div>
                     <div className="text-white text-lg font-semibold flex items-center gap-x-2">
-                      IT assest disposition <FaArrowRight className="inline-block" />
+                      IT asset disposition <FaArrowRight className="inline-block" />
                     </div>
                   </div>
                 </div>
@@ -182,4 +186,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-} 
+}
