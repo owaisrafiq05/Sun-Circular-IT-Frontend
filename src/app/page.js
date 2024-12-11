@@ -5,6 +5,8 @@ import HowCircularITWorks from "./components/HomeComponents/HowCircularITWorks";
 import QuoteSection from "./components/HomeComponents/QuoteSection";
 import ImpactSection from "./components/HomeComponents/ImpactSection";
 import RelevantArticles from "./components/HomeComponents/RelevantArticles";
+import ContactSection from "./components/HomeComponents/ContactSection";
+import CustomersSection from "./components/HomeComponents/CustomersSection";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <QuoteSection/>
       <ImpactSection/>
       <RelevantArticles/>
+      <ContactSection/>
+      <CustomersSection/>
     </div>
   );
 }
