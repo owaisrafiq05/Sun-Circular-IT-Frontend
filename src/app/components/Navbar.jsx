@@ -94,7 +94,7 @@ export default function Navbar() {
                 <div className="container mx-auto py-16">
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-8">
                     <div 
-                      onClick={() => handleNavigation("/it-recycling")}
+                      onClick={() => handleNavigation("/lifecycle-management")}
                       className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       IT recycling <FaArrowRight className="inline-block" />
@@ -213,7 +213,7 @@ export default function Navbar() {
                 <div className="bg-teal-600 mt-2 p-4">
                   <div className="space-y-4">
                     <div 
-                      onClick={() => handleNavigation("/it-recycling")}
+                      onClick={() => handleNavigation("/lifecycle-management")}
                       className="text-white text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
                     >
                       IT recycling <FaArrowRight className="inline-block" />
