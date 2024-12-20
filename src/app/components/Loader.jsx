@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logo from "../images/logo.jpg";
+import logo from "../images/logo.png";
 import Image from "next/image";
 
 const Loader = () => {
@@ -19,7 +19,7 @@ const Loader = () => {
 
   return (
     <div className="h-screen w-screen bg-white flex flex-col items-center justify-center gap-8">
-      <div className="w-72 h-72">
+      <div className="w-96">
         <Image
           src={logo}
           alt="Heart-shaped forest"
