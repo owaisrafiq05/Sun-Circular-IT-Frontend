@@ -4,38 +4,46 @@ import { useState } from "react";
 import Image from "next/image";
 import img1 from "../../images/cirkel-acquire.svg";
 
-export default function CircularTabs() {
+export default function ITAMServicesTabs() {
   const tabs = [
     {
       id: 1,
-      title: "Acquire",
+      title: "Inventory and Tracking",
       description:
-        "Need to purchase IT hardware but have a limited budget? We offer smart financing options, so you can easily purchase the right equipment at the right time.",
-      button: "Our options",
-      activeImage: img1,
-    },
-    {
-      id: 2,
-      title: "Deploy",
-      description:
-        "Quickly and securely deploy IT equipment with minimal downtime. Our deployment services are tailored to ensure efficiency.",
+        "We help you maintain a detailed inventory of all IT assets to ensure complete visibility and accountability.",
       button: "Learn more",
       activeImage: img1,
     },
     {
-      id: 3,
-      title: "Manage",
+      id: 2,
+      title: "Lifecycle Management",
       description:
-        "Keep your IT systems up-to-date and secure with our comprehensive management solutions. We ensure smooth operation and proactive monitoring.",
+        "From procurement to retirement, we manage your IT assets at every stage to optimize their value and usage.",
       button: "Explore now",
       activeImage: img1,
     },
     {
-      id: 4,
-      title: "Refresh",
+      id: 3,
+      title: "Data Security",
       description:
-        "Extend the lifecycle of your IT equipment through our refurbishing and recycling services. A sustainable and cost-effective approach.",
-      button: "Find out",
+        "Our ITAM processes include robust measures for protecting sensitive data on IT hardware, especially during upgrades or decommissioning.",
+      button: "Secure your assets",
+      activeImage: img1,
+    },
+    {
+      id: 4,
+      title: "Compliance Monitoring",
+      description:
+        "We ensure that your IT assets comply with software licensing agreements and environmental regulations, such as T11 WEEE requirements.",
+      button: "Stay compliant",
+      activeImage: img1,
+    },
+    {
+      id: 5,
+      title: "Disposal and Recycling",
+      description:
+        "When it’s time to retire assets, we integrate ITAM with IT asset disposition (ITAD) to ensure secure and sustainable disposal.",
+      button: "Recycle responsibly",
       activeImage: img1,
     },
   ];
@@ -44,11 +52,15 @@ export default function CircularTabs() {
 
   return (
     <section className="bg-[#e2f0f5] py-16">
-    <h1 className="text-3xl lg:text-4xl font-bold text-[#005C38] mb-4 montserrat-bold text-center">Step into the circle wherever you want</h1>
-    <p className="text-xl color-gray-600 text-center mb-6 md:w-[50%] flex justify-center flex-col gap-y-4 mx-auto">Our Lifecycle Management solutions are both circular and modular. Simply start with what you need. Then as your demand grows, you can seamlessly integrate more services.</p>
+      <h1 className="text-3xl lg:text-4xl font-bold text-[#005C38] mb-4 montserrat-bold text-center">
+        Our IT Asset Management Services
+      </h1>
+      <p className="text-xl color-gray-600 text-center mb-6 md:w-[50%] flex justify-center flex-col gap-y-4 mx-auto">
+        At Sun Circular IT Solutions, we take a comprehensive approach to ITAM, offering solutions that enhance visibility, ensure security, and promote sustainability.
+      </p>
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-4 lg:px-8">
         {/* Left Content */}
-        <div className="max-w-lg lg:max-w-md flex flex-col space-y-6">
+        <div className="max-w-lg lg:max-w-xl flex flex-col space-y-6">
           {/* Tabs */}
           <div className="flex space-x-4">
             {tabs.map((tab) => (
@@ -80,7 +92,6 @@ export default function CircularTabs() {
           </div>
         </div>
 
-        {/* Right Circular Graphic */}
         {/* Right Circular Graphic */}
         <div className="relative flex-shrink-0 w-72 h-72 lg:w-96 lg:h-96">
           <div className="absolute inset-0 flex items-center justify-center">

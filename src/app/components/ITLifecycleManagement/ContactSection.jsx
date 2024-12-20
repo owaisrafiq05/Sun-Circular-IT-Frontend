@@ -27,14 +27,14 @@ export default function ContactSection() {
           <div className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 rounded-full bg-teal-600 flex flex-col items-center justify-center shadow-md">
             <Image
               src={personImage}
-              alt="Leendert van Houwelingen"
+              alt="Contact Person"
               width={180}
               height={180}
               className="rounded-full relative bottom-8 sm:bottom-4"
               priority
             />
             <p className="text-white text-sm sm:text-base lg:text-lg font-semibold mt-4 text-center relative bottom-12 sm:bottom-8 w-[80%] sm:w-[70%] lg:w-[50%]">
-              Leendert van Houwelingen
+              Contact Us
             </p>
           </div>
         </div>
@@ -42,10 +42,10 @@ export default function ContactSection() {
         {/* Right - Contact Box */}
         <div className="bg-white shadow-lg rounded-lg p-4 sm:p-6 lg:p-8 max-w-full sm:max-w-md lg:max-w-lg mt-8 lg:mt-0 z-10">
           <h3 className="text-teal-900 text-xl sm:text-2xl lg:text-3xl font-bold mb-4">
-            Want to know more?
+            Get in Touch
           </h3>
           <p className="text-gray-600 text-sm sm:text-base lg:text-lg mb-6">
-            We’re happy to help.
+            Contact us today to learn more about how IT Asset Management can transform the way your organization handles its technology resources.
           </p>
           <button
             className="text-white font-semibold text-sm sm:text-base lg:text-lg py-2 px-4 sm:px-6 rounded-tr-full rounded-b-full transition duration-200 hover:opacity-90"
