@@ -29,10 +29,10 @@ export default function HeroSection() {
         {/* Hero Content */}
         <div className="absolute inset-0 flex flex-col justify-center items-start text-white px-6 sm:px-12 lg:px-24">
           <h4 className="text-sm sm:text-base uppercase tracking-wide text-emerald-300 font-semibold mb-2 montserrat-regular">
-            Circular IT Group
+            Sun Circular IT
           </h4>
           <h1 className="text-5xl sm:text-4xl lg:text-7xl font-extrabold leading-tight mb-6 montserrat-extrabold">
-            We make IT circular
+          Welcome to Sun Circular IT Solutions
           </h1>
           <button
                 className="text-white font-semibold text-base sm:text-lg py-1 px-6 rounded-tr-full rounded-b-full transition duration-200 hover:opacity-90 montserrat-bold"

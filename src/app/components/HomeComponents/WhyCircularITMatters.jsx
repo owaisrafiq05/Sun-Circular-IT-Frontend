@@ -6,7 +6,7 @@ import cardImg2 from "../../images/card-img2.webp";
 import cardImg3 from "../../images/card-img3.webp";
 import cardImg4 from "../../images/card-img4.webp";
 
-export default function HowCircularITWorks() {
+export default function WhyCircularITMatters() {
   return (
     <section className="bg-white py-16 relative">
       <div className="container mx-auto px-4 lg:px-8">
@@ -15,26 +15,16 @@ export default function HowCircularITWorks() {
           {/* Text Content */}
           <div className="lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="text-3xl lg:text-4xl font-bold text-teal-900 mb-4 montserrat-bold">
-              How do you make IT truly circular?
+              Why Circular IT Matters
             </h2>
             <p className="text-lg text-gray-600 mb-4 montserrat-regular">
-              With our approach to circular IT, you will get the maximum
-              possible use out of your IT, reducing costs and – most importantly
-              – cutting down the mountain of electronic waste.
+              Circular IT is at the heart of what we do. This innovative approach prioritizes reuse, refurbishment, and recycling to extend the life of IT assets. By embracing Circular IT principles, businesses can significantly reduce e-waste, conserve resources, and demonstrate a commitment to sustainability.
             </p>
             <p className="text-lg text-gray-600 mb-4">
-              Circular IT involves using, reusing, refurbishing and recycling IT
-              equipment to maximise its life. This greatly reduces the need for
-              new IT equipment, creating a much more sustainable environment.
-            </p>
-            <p className="text-lg text-gray-600 mb-6">
-              Using IT hardware for longer is not just about extending its
-              lifecycle, but also about managing all kinds of IT equipment
-              efficiently throughout the journey, such as laptops, desktops,
-              tablets, smartphones, servers, storage and networking equipment.
+              At Sun Circular IT Solutions, we help companies transition to a circular economy by refurbishing IT hardware whenever possible and recycling responsibly. By keeping technology in use longer, we reduce environmental impact while providing cost-saving benefits to our clients.
             </p>
             <button className="bg-teal-500 text-white text-lg font-semibold py-3 px-6 rounded-tr-full rounded-b-full hover:bg-teal-600 transition duration-300 montserrat-bold">
-              Why Circular IT?
+              Learn More
             </button>
           </div>
 

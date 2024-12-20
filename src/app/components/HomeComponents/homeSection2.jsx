@@ -10,20 +10,14 @@ export default function HomeSection2() {
         {/* Top Heading */}
         <div className="text-center mb-6">
           <h2 className="text-2xl md:text-3xl mb-2 text-gray-800 montserrat-regular">
-            The way we use IT today is no longer sustainable.
-          </h2>
-          <h2 className="text-2xl md:text-3xl text-gray-600 montserrat-regular">
-            Our society needs someone to drive change.
+            Unlock the Full Potential of Your Retired IT Assets
           </h2>
         </div>
 
         {/* Description Section */}
         <div className="text-center mb-16">
           <p className="text-base md:text-lg text-gray-600 leading-relaxed max-w-4xl mx-auto montserrat-regular">
-            That’s where we come in! Together with our customers and partners,
-            we have embarked on a sustainable transformation. We are breaking
-            the vicious circle of treating IT like a disposable product.
-            Instead, we are making IT truly circular.
+            At Sun Circular IT Solutions, we are committed to helping businesses unlock the full potential of their retired IT assets. Whether you need secure IT asset disposition, efficient asset management, or sustainable recycling, our comprehensive services ensure that your old or unused hardware delivers value while minimizing its environmental impact. We specialize in handling a wide range of IT equipment, including laptops, desktops, servers, monitors, and much more, using certified and eco-friendly processes.
           </p>
         </div>
 
@@ -44,14 +38,13 @@ export default function HomeSection2() {
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left relative">
             <h3 className="text-2xl md:text-3xl font-bold text-teal-900 mb-4 montserrat-bold">
-              Traditional IT Lifecycle Management is evolving
+              Certified and Eco-Friendly Processes
             </h3>
             <p className="text-base md:text-xl text-black leading-relaxed mb-8 montserrat-regular">
-              With our innovative and sustainable IT Lifecycle Management, you
-              can procure, deploy, manage, and replace your IT equipment.
+              Operating under a WEEE license, we adhere to strict compliance standards in England and Wales, guaranteeing that your IT assets are managed responsibly and securely. Our approach blends data security, sustainability, and value recovery, making us the trusted choice for businesses seeking to turn unused IT into tangible benefits.
             </p>
             <button className="bg-transparent border-2 border-teal-600 text-teal-600 py-2 px-6 rounded-tr-full rounded-b-full font-semibold text-lg hover:bg-teal-600 hover:text-white transition duration-200 montserrat-bold">
-              Learn how
+              Learn more
             </button>
           </div>
         </div>
