@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { FaCookieBite, FaLinkedin, FaArrowRight } from "react-icons/fa";
+import { FaSearchLocation } from "react-icons/fa";
+
 
 export default function Footer() {
   return (
@@ -37,14 +39,7 @@ export default function Footer() {
                 <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
               </Link>
               <Link
-                href="/it-recycling"
-                className="group block text-white hover:text-gray-200 flex items-center text-base sm:text-lg"
-              >
-                IT Recycling
-                <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-              </Link>
-              <Link
-                href="/it-asset-management"
+                href="/lifecycle-management"
                 className="group block text-white hover:text-gray-200 flex items-center text-base sm:text-lg"
               >
                 IT Asset Management
@@ -85,11 +80,11 @@ export default function Footer() {
               className="group flex items-center text-white hover:text-gray-200 text-base sm:text-lg"
             >
               <span className="mr-2">☏</span>
-              +31 (0) 88 – 990 7500
+              02034321143
               <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/sun-circular-it/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center text-white hover:text-gray-200 text-base sm:text-lg"
@@ -98,6 +93,10 @@ export default function Footer() {
               Linkedin
               <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
             </a>
+            <p className="text-white text-base sm:text-lg flex items-start">
+              <FaSearchLocation className="mr-2 mt-2"/>
+              Airport House, Purley Way, London, CR0 0XZ
+            </p>
           </div>
 
           {/* Column 3 - Newsletter Signup */}

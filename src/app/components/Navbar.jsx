@@ -97,14 +97,9 @@ export default function Navbar() {
                       onClick={() => handleNavigation("/lifecycle-management")}
                       className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
-                      IT recycling <FaArrowRight className="inline-block" />
-                    </div>
-                    <div 
-                      onClick={() => handleNavigation("/it-asset-management")}
-                      className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
-                    >
                       IT asset management <FaArrowRight className="inline-block" />
                     </div>
+
                     <div 
                       onClick={() => handleNavigation("/it-asset-disposition")}
                       className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
