@@ -21,12 +21,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-teal-500 sticky top-0 z-50 font-montserrat">
+    <nav className="bg-white shadow-md sticky top-0 z-50 font-montserrat">
       <div className="container mx-auto py-1 px-4 lg:px-0">
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div
-            className="text-white text-xl md:text-2xl lg:text-3xl font-bold cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200 w-72"
+            className="text-black text-xl md:text-2xl lg:text-3xl font-bold cursor-pointer hover:text-[#db8f1b] transition-colors duration-200 w-72"
             onClick={() => handleNavigation("/")}
           >
             <Image
@@ -42,7 +42,7 @@ export default function Navbar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-white text-3xl transition-transform duration-300"
+            className="lg:hidden text-black text-3xl transition-transform duration-300"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (
@@ -58,7 +58,7 @@ export default function Navbar() {
             <div className="group relative">
               <button
                 onMouseEnter={() => setOpenDropdown("Circular IT")}
-                className="text-white text-2xl font-semibold hover:text-[#EEEEEE] flex justify-center items-center gap-x-2 cursor-pointer"
+                className="text-black text-2xl font-semibold hover:text-[#db8f1b] flex justify-center items-center gap-x-2 cursor-pointer"
               >
                 Circular IT <IoIosArrowDropdown />
               </button>
@@ -74,13 +74,13 @@ export default function Navbar() {
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-8">
                     <div
                       onClick={() => handleNavigation("/")}
-                      className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
+                      className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       Home <FaArrowRight className="inline-block" />
                     </div>
                     <div
                       onClick={() => handleNavigation("/why-circular-it")}
-                      className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
+                      className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       Why Circular IT? <FaArrowRight className="inline-block" />
                     </div>
@@ -93,7 +93,7 @@ export default function Navbar() {
             <div className="group relative">
               <button
                 onMouseEnter={() => setOpenDropdown("Portfolio")}
-                className="text-white text-2xl font-semibold hover:text-[#EEEEEE] flex justify-center items-center gap-x-2 cursor-pointer"
+                className="text-black text-2xl font-semibold hover:text-[#db8f1b] flex justify-center items-center gap-x-2 cursor-pointer"
               >
                 Portfolio <IoIosArrowDropdown />
               </button>
@@ -109,7 +109,7 @@ export default function Navbar() {
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-8">
                     <div
                       onClick={() => handleNavigation("/lifecycle-management")}
-                      className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
+                      className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       IT asset management{" "}
                       <FaArrowRight className="inline-block" />
@@ -117,7 +117,7 @@ export default function Navbar() {
 
                     <div
                       onClick={() => handleNavigation("/it-asset-disposition")}
-                      className="text-2xl font-bold text-gray-800 hover:text-teal-500 transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
+                      className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       IT asset disposition{" "}
                       <FaArrowRight className="inline-block" />
@@ -129,13 +129,13 @@ export default function Navbar() {
 
             <button
               onClick={() => handleNavigation("/about")}
-              className="text-white text-2xl font-semibold hover:text-[#EEEEEE] transition-colors duration-200 cursor-pointer"
+              className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer"
             >
               About us
             </button>
             <button
               onClick={() => handleNavigation("/contact")}
-              className="text-white text-2xl font-semibold hover:text-[#EEEEEE] transition-colors duration-200 cursor-pointer"
+              className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer"
             >
               Contact
             </button>
@@ -145,11 +145,11 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-4">
             <button
               onClick={() => handleNavigation("/resellers")}
-              className="text-white text-2xl font-semibold hover:text-[#EEEEEE] transition-colors duration-200 cursor-pointer"
+              className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer"
             >
               Resellers
             </button>
-            <button className="text-white text-2xl font-semibold hover:text-[#EEEEEE] transition-colors duration-200 cursor-pointer">
+            <button className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer">
               EN
             </button>
           </div>
@@ -171,7 +171,7 @@ export default function Navbar() {
                     openDropdown === "Circular IT" ? null : "Circular IT"
                   )
                 }
-                className="text-white text-xl font-semibold w-full text-left flex items-center justify-between cursor-pointer"
+                className="text-black text-xl font-semibold w-full text-left flex items-center justify-between cursor-pointer"
               >
                 Circular IT
                 <IoIosArrowDropdown
@@ -187,17 +187,17 @@ export default function Navbar() {
                     : "opacity-0 max-h-0"
                 }`}
               >
-                <div className="bg-teal-600 mt-2 p-4">
+                <div className="bg-gray-100 mt-2 p-4">
                   <div className="space-y-4">
                     <div
                       onClick={() => handleNavigation("/")}
-                      className="text-white text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+                      className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       Home <FaArrowRight className="inline-block" />
                     </div>
                     <div
                       onClick={() => handleNavigation("/why-circular-it")}
-                      className="text-white text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+                      className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       Why Circular IT? <FaArrowRight className="inline-block" />
                     </div>
@@ -213,7 +213,7 @@ export default function Navbar() {
                     openDropdown === "Portfolio" ? null : "Portfolio"
                   )
                 }
-                className="text-white text-xl font-semibold w-full text-left flex items-center justify-between cursor-pointer"
+                className="text-black text-xl font-semibold w-full text-left flex items-center justify-between cursor-pointer"
               >
                 Portfolio
                 <IoIosArrowDropdown
@@ -229,24 +229,24 @@ export default function Navbar() {
                     : "opacity-0 max-h-0"
                 }`}
               >
-                <div className="bg-teal-600 mt-2 p-4">
+                <div className="bg-gray-100 mt-2 p-4">
                   <div className="space-y-4">
                     <div
                       onClick={() => handleNavigation("/lifecycle-management")}
-                      className="text-white text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+                      className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       IT recycling <FaArrowRight className="inline-block" />
                     </div>
                     <div
                       onClick={() => handleNavigation("/it-asset-management")}
-                      className="text-white text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+                      className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       IT asset management{" "}
                       <FaArrowRight className="inline-block" />
                     </div>
                     <div
                       onClick={() => handleNavigation("/it-asset-disposition")}
-                      className="text-white text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+                      className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       IT asset disposition{" "}
                       <FaArrowRight className="inline-block" />
@@ -258,23 +258,23 @@ export default function Navbar() {
 
             <button
               onClick={() => handleNavigation("/about")}
-              className="text-white text-xl font-semibold text-left cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+              className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
             >
               About us
             </button>
             <button
-              onClick={() => handleNavigation("/contact")}
-              className="text-white text-xl font-semibold text-left cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+              onClick={() => handleNavigation("/contact-us")}
+              className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
             >
               Contact
             </button>
             <button
               onClick={() => handleNavigation("/resellers")}
-              className="text-white text-xl font-semibold text-left cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200"
+              className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
             >
               Resellers
             </button>
-            <button className="text-white text-xl font-semibold text-left cursor-pointer hover:text-[#EEEEEE] transition-colors duration-200">
+            <button className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200">
               EN
             </button>
           </div>

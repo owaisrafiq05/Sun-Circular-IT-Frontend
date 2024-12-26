@@ -37,13 +37,13 @@ export default function HomeSection2() {
 
           {/* Text Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left relative">
-            <h3 className="text-2xl md:text-3xl font-bold text-teal-900 mb-4 montserrat-bold">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#db8f1b] mb-4 montserrat-bold">
               Certified and Eco-Friendly Processes
             </h3>
             <p className="text-base md:text-xl text-black leading-relaxed mb-8 montserrat-regular">
               Operating under a WEEE license, we adhere to strict compliance standards in England and Wales, guaranteeing that your IT assets are managed responsibly and securely. Our approach blends data security, sustainability, and value recovery, making us the trusted choice for businesses seeking to turn unused IT into tangible benefits.
             </p>
-            <button className="bg-transparent border-2 border-teal-600 text-teal-600 py-2 px-6 rounded-tr-full rounded-b-full font-semibold text-lg hover:bg-teal-600 hover:text-white transition duration-200 montserrat-bold">
+            <button className="bg-transparent border-2 border-[#db8f1b] text-[#db8f1b] py-2 px-6 rounded-full font-semibold text-lg hover:bg-[#db8f1b] hover:text-white transition duration-200 montserrat-bold">
               Learn more
             </button>
           </div>

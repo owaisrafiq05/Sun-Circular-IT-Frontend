@@ -10,7 +10,7 @@ export default function OurServicesSection() {
     <section className="bg-white py-16">
       <div className="container mx-auto px-4 lg:px-32">
         {/* Section Heading */}
-        <h2 className="text-teal-900 text-3xl lg:text-4xl font-bold text-center mb-12">
+        <h2 className="text-[#db8f1b] text-3xl lg:text-4xl font-bold text-center mb-12">
           Our Services
         </h2>
 
@@ -100,7 +100,7 @@ export default function OurServicesSection() {
         {/* CTA Button */}
         <div className="text-center mt-12">
           <button
-            className="text-teal-600 border-2 border-teal-600 font-semibold text-lg py-2 px-8 rounded-tr-full rounded-b-full hover:bg-teal-600 hover:text-white transition duration-300"
+            className="text-[#db8f1b] border-2 border-[#db8f1b] font-semibold text-lg py-2 px-8 rounded-full hover:bg-[#db8f1b] hover:text-white transition duration-300"
           >
             Explore All Services
           </button>

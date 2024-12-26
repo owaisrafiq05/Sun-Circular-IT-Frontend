@@ -14,7 +14,7 @@ export default function WhyCircularITMatters() {
         <div className="flex flex-col lg:flex-row items-start justify-center gap-x-12">
           {/* Text Content */}
           <div className="lg:w-1/2 mb-8 lg:mb-0">
-            <h2 className="text-3xl lg:text-4xl font-bold text-teal-900 mb-4 montserrat-bold">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#db8f1b] mb-4 montserrat-bold">
               Why Circular IT Matters
             </h2>
             <p className="text-lg text-gray-600 mb-4 montserrat-regular">
@@ -23,7 +23,7 @@ export default function WhyCircularITMatters() {
             <p className="text-lg text-gray-600 mb-4">
               At Sun Circular IT Solutions, we help companies transition to a circular economy by refurbishing IT hardware whenever possible and recycling responsibly. By keeping technology in use longer, we reduce environmental impact while providing cost-saving benefits to our clients.
             </p>
-            <button className="bg-teal-500 text-white text-lg font-semibold py-3 px-6 rounded-tr-full rounded-b-full hover:bg-teal-600 transition duration-300 montserrat-bold">
+            <button className="bg-transparent border-2 border-[#db8f1b] text-[#db8f1b] py-2 px-6 rounded-full font-semibold text-lg hover:bg-[#db8f1b] hover:text-white transition duration-200 montserrat-bold">
               Learn More
             </button>
           </div>
@@ -40,7 +40,7 @@ export default function WhyCircularITMatters() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-bold text-teal-900 montserrat-bold">Solutions</h3>
+                <h3 className="text-lg font-bold text-[#db8f1b] montserrat-bold">Solutions</h3>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ export default function WhyCircularITMatters() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-bold text-teal-900 montserrat-bold">Services</h3>
+                <h3 className="text-lg font-bold text-[#db8f1b] montserrat-bold">Services</h3>
               </div>
             </div>
 
@@ -68,7 +68,7 @@ export default function WhyCircularITMatters() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-bold text-teal-900 montserrat-bold">Hardware</h3>
+                <h3 className="text-lg font-bold text-[#db8f1b] montserrat-bold">Hardware</h3>
               </div>
             </div>
 
@@ -82,7 +82,7 @@ export default function WhyCircularITMatters() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-bold text-teal-900 montserrat-bold">
+                <h3 className="text-lg font-bold text-[#db8f1b] montserrat-bold">
                   Acquisition options
                 </h3>
               </div>

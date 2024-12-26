@@ -10,7 +10,7 @@ export default function QuoteSection() {
         <div className="flex flex-col gap-y-4 lg:flex-row items-center justify-center gap-x-16">
           {/* Circular Image Section */}
           <div className="relative flex-shrink-0">
-            <div className="absolute bg-teal-100 z-10"></div>
+            <div className="absolute bg-orange-100 z-10"></div>
             <Image
               src={profileImg}
               alt="Profile Image"
