@@ -1,4 +1,5 @@
 import ContactSection from "../components/ContactComponents/ContactSection";
+import ContactSection2 from "../components/ContactComponents/ContactSection2";
 import HeroSection from "../components/ContactComponents/HeroSection";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <HeroSection/>
       <ContactSection/>
+      <ContactSection2/>
     </div>
   );
 }

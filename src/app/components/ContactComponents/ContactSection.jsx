@@ -22,19 +22,19 @@ export default function ContactSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Let's Connect
+          Get in Touch
         </motion.h2>
 
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <div className="flex flex-col md:flex-row">
             <div className="md:w-1/2 p-8 md:p-12 bg-gradient-to-br from-orange-300 to-orange-600 text-white">
               <motion.div {...fadeInUp}>
-                <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
+                <h3 className="text-3xl font-bold mb-6">Reach out to us</h3>
                 <ul className="space-y-6">
                   {[
                     { icon: FaEnvelope, text: 'info@suncircularit.com', href: 'mailto:info@suncircularit.com' },
                     { icon: FaPhoneAlt, text: '02034321143', href: 'tel:02034321143' },
-                    { icon: FaLinkedin, text: 'LinkedIn', href: '#' },
+                    { icon: FaMapMarkerAlt, text: 'Airport House, Purley Way, London, CR0 0XZ', href: '#' },
                   ].map((item, index) => (
                     <li key={index} className="flex items-center space-x-4">
                       <div className="p-3 bg-white text-[#db8f1b] rounded-full">
@@ -60,14 +60,14 @@ export default function ContactSection() {
                   Contact Info
                 </button>
                 <button 
-                  onClick={() => setActiveTab('company')}
+                  onClick={() => setActiveTab('business')}
                   className={`py-2 px-4 rounded-full text-sm font-medium transition-all ${
-                    activeTab === 'company' 
+                    activeTab === 'business' 
                       ? 'bg-[#db8f1b] text-white' 
                       : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
                   }`}
                 >
-                  Company Details
+                  Business Hours
                 </button>
               </div>
 
@@ -81,7 +81,7 @@ export default function ContactSection() {
                   <ul className="space-y-6">
                     {[
                       { icon: FaBuilding, text: 'Sun Circular IT Solutions' },
-                      { icon: FaMapMarkerAlt, text: '123 Tech Street, Digital City, 12345' },
+                      { icon: FaMapMarkerAlt, text: 'Airport House, Purley Way, London, CR0 0XZ' },
                     ].map((item, index) => (
                       <li key={index} className="flex items-center space-x-4">
                         <div className="p-3 bg-orange-100 text-[#db8f1b] rounded-full">
@@ -94,12 +94,13 @@ export default function ContactSection() {
                 ) : (
                   <ul className="space-y-6">
                     {[
-                      { icon: FaFileAlt, text: 'BTW-number: NL123456789B01' },
-                      { icon: FaIdCard, text: 'KvK-number: 12345678' },
+                      { text: 'Monday – Friday: 9:00 AM – 6:00 PM' },
+                      { text: 'Saturday: By Appointment Only' },
+                      { text: 'Sunday: Closed' },
                     ].map((item, index) => (
                       <li key={index} className="flex items-center space-x-4">
                         <div className="p-3 bg-orange-100 text-[#db8f1b] rounded-full">
-                          <item.icon size={24} />
+                          <FaPaperPlane size={24} />
                         </div>
                         <span className="text-gray-700">{item.text}</span>
                       </li>
@@ -133,4 +134,3 @@ export default function ContactSection() {
     </section>
   )
 }
-
