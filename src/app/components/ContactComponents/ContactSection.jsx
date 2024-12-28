@@ -17,7 +17,7 @@ export default function ContactSection() {
     <section className="py-16 px-4 md:px-8 min-h-screen flex items-center justify-center">
       <div className="max-w-6xl w-full mx-auto">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold text-center text-emerald-800 mb-12"
+          className="text-4xl md:text-5xl font-bold text-center text-[#db8f1b] mb-12"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -27,7 +27,7 @@ export default function ContactSection() {
 
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
           <div className="flex flex-col md:flex-row">
-            <div className="md:w-1/2 p-8 md:p-12 bg-gradient-to-br from-emerald-400 to-teal-600 text-white">
+            <div className="md:w-1/2 p-8 md:p-12 bg-gradient-to-br from-orange-300 to-orange-600 text-white">
               <motion.div {...fadeInUp}>
                 <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
                 <ul className="space-y-6">
@@ -37,7 +37,7 @@ export default function ContactSection() {
                     { icon: FaLinkedin, text: 'LinkedIn', href: '#' },
                   ].map((item, index) => (
                     <li key={index} className="flex items-center space-x-4">
-                      <div className="p-3 bg-white text-emerald-600 rounded-full">
+                      <div className="p-3 bg-white text-[#db8f1b] rounded-full">
                         <item.icon size={24} />
                       </div>
                       <a href={item.href} className="text-lg hover:underline transition-all">{item.text}</a>
@@ -53,7 +53,7 @@ export default function ContactSection() {
                   onClick={() => setActiveTab('contact')}
                   className={`py-2 px-4 rounded-full text-sm font-medium transition-all ${
                     activeTab === 'contact' 
-                      ? 'bg-emerald-600 text-white' 
+                      ? 'bg-[#db8f1b] text-white' 
                       : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
                   }`}
                 >
@@ -63,7 +63,7 @@ export default function ContactSection() {
                   onClick={() => setActiveTab('company')}
                   className={`py-2 px-4 rounded-full text-sm font-medium transition-all ${
                     activeTab === 'company' 
-                      ? 'bg-emerald-600 text-white' 
+                      ? 'bg-[#db8f1b] text-white' 
                       : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
                   }`}
                 >
@@ -84,7 +84,7 @@ export default function ContactSection() {
                       { icon: FaMapMarkerAlt, text: '123 Tech Street, Digital City, 12345' },
                     ].map((item, index) => (
                       <li key={index} className="flex items-center space-x-4">
-                        <div className="p-3 bg-emerald-100 text-emerald-600 rounded-full">
+                        <div className="p-3 bg-orange-100 text-[#db8f1b] rounded-full">
                           <item.icon size={24} />
                         </div>
                         <span className="text-gray-700">{item.text}</span>
@@ -98,7 +98,7 @@ export default function ContactSection() {
                       { icon: FaIdCard, text: 'KvK-number: 12345678' },
                     ].map((item, index) => (
                       <li key={index} className="flex items-center space-x-4">
-                        <div className="p-3 bg-emerald-100 text-emerald-600 rounded-full">
+                        <div className="p-3 bg-orange-100 text-[#db8f1b] rounded-full">
                           <item.icon size={24} />
                         </div>
                         <span className="text-gray-700">{item.text}</span>
@@ -113,7 +113,7 @@ export default function ContactSection() {
 
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-4">
           <motion.button 
-            className="group py-3 px-6 bg-emerald-600 text-white rounded-full shadow-lg hover:bg-emerald-700 transition-all flex items-center justify-center space-x-2"
+            className="group py-3 px-6 bg-[#db8f1b] text-white rounded-full shadow-lg hover:bg-[#db8f1b] transition-all flex items-center justify-center space-x-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -121,7 +121,7 @@ export default function ContactSection() {
             <span>Contact Form</span>
           </motion.button>
           <motion.button 
-            className="group py-3 px-6 bg-white border border-emerald-600 text-emerald-600 rounded-full shadow-lg hover:bg-emerald-50 transition-all flex items-center justify-center space-x-2"
+            className="group py-3 px-6 bg-white border border-[#db8f1b] text-[#db8f1b] rounded-full shadow-lg hover:bg-white transition-all flex items-center justify-center space-x-2"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

@@ -5,25 +5,25 @@ import { FaLightbulb, FaLeaf, FaDollarSign, FaShieldAlt } from "react-icons/fa";
 export default function WhyChooseITAM() {
   const features = [
     {
-      icon: <FaLightbulb size={48} className="text-teal-600" />,
+      icon: <FaLightbulb size={48} className="text-[#db8f1b]" />,
       title: "Expert Guidance",
       description:
         "Leverage our experience to streamline and optimize your IT asset management processes.",
     },
     {
-      icon: <FaLeaf size={48} className="text-teal-600" />,
+      icon: <FaLeaf size={48} className="text-[#db8f1b]" />,
       title: "Sustainability-Focused",
       description:
         "We align ITAM strategies with environmental best practices, reducing your organization’s carbon footprint.",
     },
     {
-      icon: <FaDollarSign size={48} className="text-teal-600" />,
+      icon: <FaDollarSign size={48} className="text-[#db8f1b]" />,
       title: "Cost-Effective Solutions",
       description:
         "Maximize the value of your IT investments while minimizing unnecessary expenses.",
     },
     {
-      icon: <FaShieldAlt size={48} className="text-teal-600" />,
+      icon: <FaShieldAlt size={48} className="text-[#db8f1b]" />,
       title: "Compliance Assurance",
       description:
         "Stay fully compliant with legal and regulatory standards, including WEEE directives.",
@@ -34,7 +34,7 @@ export default function WhyChooseITAM() {
     <section className="bg-white py-16">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
-        <h2 className="text-teal-900 text-3xl lg:text-4xl font-bold text-center mb-12">
+        <h2 className="text-[#db8f1b] text-3xl lg:text-4xl font-bold text-center mb-12">
           Why Choose Sun Circular IT Solutions for ITAM?
         </h2>
 
@@ -48,7 +48,7 @@ export default function WhyChooseITAM() {
               <div className="mb-4">
                 {feature.icon}
               </div>
-              <h3 className="text-teal-900 text-xl font-semibold mb-2">
+              <h3 className="text-[#db8f1b] text-xl font-semibold mb-2">
                 {feature.title}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -61,7 +61,7 @@ export default function WhyChooseITAM() {
         {/* CTA Button */}
         <div className="text-center mt-12">
           <button
-            className="text-teal-600 border-2 border-teal-600 font-semibold text-lg py-2 px-8 rounded-tr-full rounded-b-full hover:bg-teal-600 hover:text-white transition duration-300"
+            className="text-[#db8f1b] border-2 border-[#db8f1b] font-semibold text-lg py-2 px-8 rounded-full hover:bg-[#db8f1b] hover:text-white transition duration-300"
           >
             Learn More About ITAM
           </button>

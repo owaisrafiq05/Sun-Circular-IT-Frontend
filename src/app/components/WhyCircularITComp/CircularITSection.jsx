@@ -5,19 +5,19 @@ import { FaLeaf, FaDollarSign, FaShieldAlt } from "react-icons/fa";
 export default function CircularITSection() {
   const features = [
     {
-      icon: <FaLeaf size={36} className="text-teal-600" />,
+      icon: <FaLeaf size={36} className="text-[#db8f1b]" />,
       title: "Environmental Impact",
       description:
         "E-waste is one of the fastest-growing waste streams in the world. Circular IT reduces this burden by keeping technology in circulation longer.",
     },
     {
-      icon: <FaDollarSign size={36} className="text-teal-600" />,
+      icon: <FaDollarSign size={36} className="text-[#db8f1b]" />,
       title: "Cost Efficiency",
       description:
         "Businesses can save money or generate revenue by reselling unused IT assets instead of discarding them.",
     },
     {
-      icon: <FaShieldAlt size={36} className="text-teal-600" />,
+      icon: <FaShieldAlt size={36} className="text-[#db8f1b]" />,
       title: "Compliance and Responsibility",
       description:
         "Circular IT practices help companies meet regulatory requirements and demonstrate their commitment to sustainability.",
@@ -28,7 +28,7 @@ export default function CircularITSection() {
     <section className="py-16">
       <div className="container mx-auto px-4 lg:px-12">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-[#005C38] mb-4 montserrat-bold">
+          <h2 className="text-3xl lg:text-4xl font-bold text-[#db8f1b] mb-4 montserrat-bold">
             Why Circular IT Matters
           </h2>
           <p className="text-lg text-gray-600 md:w-3/4 mx-auto">
@@ -42,10 +42,10 @@ export default function CircularITSection() {
               key={index}
               className="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center md:text-left md:items-start"
             >
-              <div className="mb-4 w-16 h-16 flex items-center justify-center bg-teal-100 rounded-full">
+              <div className="mb-4 w-16 h-16 flex items-center justify-center bg-orange-100 rounded-full">
                 {feature.icon}
               </div>
-              <h3 className="text-teal-900 text-3xl font-bold">
+              <h3 className="text-[#db8f1b] text-3xl font-bold">
                 {feature.title}
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed mt-3">

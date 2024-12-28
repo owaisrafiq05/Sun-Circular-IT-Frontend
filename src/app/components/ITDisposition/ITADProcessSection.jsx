@@ -49,7 +49,7 @@ export default function ITADProcessSection() {
       <div className="container mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-[#005C38] text-3xl md:text-4xl font-bold">
+          <h2 className="text-[#db8f1b] text-3xl md:text-4xl font-bold">
             Our ITAD Process
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mt-4">
@@ -73,7 +73,7 @@ export default function ITADProcessSection() {
               </div>
               {/* Card Content */}
               <div className="p-6">
-                <h3 className="text-[#005C38] text-xl font-bold mb-2">
+                <h3 className="text-[#db8f1b] text-xl font-bold mb-2">
                   {card.title}
                 </h3>
                 <p className="text-gray-600 text-base">

@@ -25,7 +25,7 @@ export default function CircularITSolution2() {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-teal-600 to-teal-900 text-white my-4">
+    <section className="py-20 bg-gradient-to-br from-orange-300 to-orange-500 text-white my-4">
       <div className="container mx-auto px-6 lg:px-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">How Sun Circular IT Solutions Supports Circular IT</h2>
@@ -40,7 +40,7 @@ export default function CircularITSolution2() {
               key={index}
               className="bg-white bg-opacity-10 rounded-lg p-8 flex flex-col items-center lg:items-start"
             >
-              <div className="bg-teal-800 p-4 rounded-full mb-4">
+              <div className="bg-orange-700 p-4 rounded-full mb-4">
                 {feature.icon}
               </div>
               <h3 className="text-2xl font-semibold mb-3">{feature.title}</h3>
