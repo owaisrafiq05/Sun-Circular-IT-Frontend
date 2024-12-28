@@ -134,7 +134,7 @@ export default function Navbar() {
               About us
             </button>
             <button
-              onClick={() => handleNavigation("/contact")}
+              onClick={() => handleNavigation("/contact-us")}
               className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer"
             >
               Contact
@@ -236,13 +236,6 @@ export default function Navbar() {
                       className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       IT recycling <FaArrowRight className="inline-block" />
-                    </div>
-                    <div
-                      onClick={() => handleNavigation("/it-asset-management")}
-                      className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
-                    >
-                      IT asset management{" "}
-                      <FaArrowRight className="inline-block" />
                     </div>
                     <div
                       onClick={() => handleNavigation("/it-asset-disposition")}
