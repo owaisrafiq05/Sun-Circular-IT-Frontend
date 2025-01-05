@@ -140,19 +140,6 @@ export default function Navbar() {
               Contact
             </button>
           </div>
-
-          {/* Language Switch - Desktop */}
-          <div className="hidden lg:flex items-center space-x-4">
-            <button
-              onClick={() => handleNavigation("/resellers")}
-              className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer"
-            >
-              Resellers
-            </button>
-            <button className="text-black text-2xl font-semibold hover:text-[#db8f1b] transition-colors duration-200 cursor-pointer">
-              EN
-            </button>
-          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -260,15 +247,6 @@ export default function Navbar() {
               className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
             >
               Contact
-            </button>
-            <button
-              onClick={() => handleNavigation("/resellers")}
-              className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
-            >
-              Resellers
-            </button>
-            <button className="text-black text-xl font-semibold text-left cursor-pointer hover:text-[#db8f1b] transition-colors duration-200">
-              EN
             </button>
           </div>
         </div>

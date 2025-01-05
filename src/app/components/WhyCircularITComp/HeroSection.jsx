@@ -27,11 +27,12 @@ export default function HeroSection() {
         ></div>
 
         {/* Hero Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-start text-white px-6 sm:px-12 lg:px-24">
-          <h1 className="text-5xl sm:text-4xl lg:text-7xl font-extrabold leading-tight mb-6 montserrat-extrabold">
-          What is Circular IT?
+        <div className="absolute inset-0 flex flex-col justify-center items-start text-white px-6 sm:px-8 md:px-12 lg:px-24">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 montserrat-extrabold">
+            What is Circular IT?
           </h1>
-          <p className="text-xl md:w-[50%]">Circular IT is a sustainable approach to managing technology that prioritizes reuse, recycling, and extending the lifecycle of IT assets. Instead of following a traditional “use and dispose” model, Circular IT embraces the principles of a circular economy, where resources are continuously repurposed to minimize waste and reduce environmental impact.
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg mb-6 md:w-[50%] leading-relaxed">
+            Circular IT is a sustainable approach to managing technology that prioritizes reuse, recycling, and extending the lifecycle of IT assets. Instead of following a traditional “use and dispose” model, Circular IT embraces the principles of a circular economy, where resources are continuously repurposed to minimize waste and reduce environmental impact.
           </p>
         </div>
       </div>

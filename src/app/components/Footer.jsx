@@ -115,26 +115,11 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="flex flex-wrap gap-6 items-center pt-6 border-t border-gray-200">
-          <FaCookieBite className="text-[#db8f1b]" />
           <Link
             href="/privacy"
             className="group text-gray-600 hover:text-[#db8f1b] flex items-center text-sm transition-colors duration-200"
           >
             Privacy Policy
-            <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-          </Link>
-          <Link
-            href="/cookies"
-            className="group text-gray-600 hover:text-[#db8f1b] flex items-center text-sm transition-colors duration-200"
-          >
-            Cookie Policy
-            <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
-          </Link>
-          <Link
-            href="/principles"
-            className="group text-gray-600 hover:text-[#db8f1b] flex items-center text-sm transition-colors duration-200"
-          >
-            Principles Statement
             <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
           </Link>
         </div>

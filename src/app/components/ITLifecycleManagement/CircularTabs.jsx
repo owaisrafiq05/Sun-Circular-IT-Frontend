@@ -55,14 +55,14 @@ export default function ITAMServicesTabs() {
       <h1 className="text-3xl lg:text-4xl font-bold text-[#db8f1b] mb-4 montserrat-bold text-center">
         Our IT Asset Management Services
       </h1>
-      <p className="text-xl color-gray-600 text-center mb-6 md:w-[50%] flex justify-center flex-col gap-y-4 mx-auto">
+      <p className="text-xl color-gray-600 text-center mb-6 px-4 md:w-[50%] flex justify-center flex-col gap-y-4 mx-auto">
         At Sun Circular IT Solutions, we take a comprehensive approach to ITAM, offering solutions that enhance visibility, ensure security, and promote sustainability.
       </p>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-4 lg:px-8">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-center px-4 lg:px-8 gap-y-8 lg:gap-y-0">
         {/* Left Content */}
         <div className="max-w-2xl lg:max-w-6xl flex flex-col space-y-6">
           {/* Tabs */}
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-2 lg:space-x-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
@@ -71,7 +71,7 @@ export default function ITAMServicesTabs() {
                   activeTab === tab.id
                     ? "border-[#db8f1b]"
                     : "border-transparent"
-                } transition duration-300`}
+                } transition duration-300 px-2 lg:px-4`}
               >
                 {tab.title} →
               </button>
