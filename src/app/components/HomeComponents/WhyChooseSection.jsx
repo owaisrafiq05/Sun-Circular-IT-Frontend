@@ -8,7 +8,7 @@ export default function WhyChooseSection() {
     <section className="bg-white py-8 lg:py-16 font-montserrat">
       <div className="container flex flex-col lg:flex-row items-center justify-between lg:items-start gap-y-8 gap-x-12 px-4 lg:pl-8">
         {/* Left Text Content */}
-        <div className="bg-white shadow-lg rounded-lg p-4 sm:p-6 lg:px-12 max-w-full sm:max-w-md lg:max-w-lg flex-shrink-0 mx-auto lg:mx-0 relative lg:left-32 z-10 my-auto">
+        <div className="bg-white shadow-lg rounded-lg p-4 sm:p-6 lg:px-12 max-w-full sm:max-w-md lg:max-w-lg flex-shrink-0 mx-auto lg:mx-0 z-10 my-auto">
           <h4 className="text-[#db8f1b] text-xs sm:text-sm lg:text-base font-semibold uppercase tracking-wide mb-2">
             WHY CHOOSE US
           </h4>
