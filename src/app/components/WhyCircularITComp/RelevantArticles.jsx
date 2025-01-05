@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import articleImage1 from "../../images/article1.webp";
-import articleImage2 from "../../images/article2.webp";
-import articleImage3 from "../../images/article3.webp";
+import articleImage1 from "../../images/article1.jpg";
+import articleImage2 from "../../images/article2.jpg";
+import articleImage3 from "../../images/article3.avif";
 
 export default function RelevantArticles() {
   return (

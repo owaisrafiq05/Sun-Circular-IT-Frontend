@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import lifecycleImage from "../../images/lifecycle-image.png"; // Update the path based on your project
+import lifecycleImage from "../../images/lifecycle-image.jpg";
 
 export default function HomeSection2() {
   return (

@@ -1,9 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import serviceImage1 from "../../images/article1.webp";
-import serviceImage2 from "../../images/article2.webp";
-import serviceImage3 from "../../images/article3.webp";
+import serviceImage1 from "../../images/article1.jpg";
+import serviceImage2 from "../../images/article2.jpg";
+import serviceImage3 from "../../images/article3.avif";
+import serviceImage4 from "../../images/article4.avif";
 
 export default function OurServicesSection() {
   return (
@@ -79,7 +80,7 @@ export default function OurServicesSection() {
           {/* Service 4 */}
           <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition duration-300">
             <Image
-              src={serviceImage1}
+              src={serviceImage4}
               alt="Free London Collections"
               width={400}
               height={200}

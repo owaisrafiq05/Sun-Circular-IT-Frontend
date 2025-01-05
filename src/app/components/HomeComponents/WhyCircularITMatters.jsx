@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import cardImg1 from "../../images/card-img1.webp";
-import cardImg2 from "../../images/card-img2.webp";
-import cardImg3 from "../../images/card-img3.webp";
-import cardImg4 from "../../images/card-img4.webp";
+import cardImg1 from "../../images/card-img1.jpg";
+import cardImg2 from "../../images/card-img2.jpg";
+import cardImg3 from "../../images/card-img3.jpg";
+import cardImg4 from "../../images/card-img4.jpg";
 
 export default function WhyCircularITMatters() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import lifecycleImage from "../../images/lifecycle-image.png";
+import lifecycleImage from "../../images/lifecycle-image.jpg";
 
 export default function Section2() {
   return (
