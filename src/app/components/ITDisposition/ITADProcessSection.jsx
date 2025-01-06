@@ -1,9 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import cardImage1 from "../../images/card-image1.webp";
-import cardImage2 from "../../images/card-image2.webp";
-import cardImage3 from "../../images/card-image3.webp";
+import cardImage1 from "../../images/card-image1.jpg";
+import cardImage2 from "../../images/card-image2.jpg";
+import cardImage4 from "../../images/recycle.jpg";
+import cardImage5 from "../../images/data-sec.jpg";
+import cardImage3 from "../../images/card-image4.jpg";
 
 export default function ITADProcessSection() {
   const cards = [
@@ -16,21 +18,21 @@ export default function ITADProcessSection() {
     },
     {
       id: 2,
-      image: cardImage2,
+      image: cardImage5,
       title: "Secure Data Destruction",
       description:
         "Certified data wiping or physical destruction ensures sensitive information is fully protected.",
     },
     {
       id: 3,
-      image: cardImage3,
+      image: cardImage4,
       title: "Reuse and Recycling",
       description:
         "Equipment is either refurbished for reuse or recycled responsibly under our T11 WEEE license.",
     },
     {
       id: 4,
-      image: cardImage1,
+      image: cardImage3,
       title: "Rebate Opportunities",
       description:
         "Eligible assets are turned into cash, providing financial returns for your business.",

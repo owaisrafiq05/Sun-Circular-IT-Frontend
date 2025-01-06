@@ -1,9 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import cardImage1 from "../../images/card-image1.webp";
-import cardImage2 from "../../images/card-image2.webp";
-import cardImage3 from "../../images/card-image3.webp";
+import cardImage1 from "../../images/card-image1.jpg";
+import cardImage2 from "../../images/card-image2.jpg";
+import cardImage3 from "../../images/card-img1.jpg";
+import cardImage4 from "../../images/card-image4.jpg";
 
 export default function LifecycleManagement() {
   const cards = [
@@ -31,7 +32,7 @@ export default function LifecycleManagement() {
     },
     {
       id: 4,
-      image: cardImage3,
+      image: cardImage4,
       title: "Compliance",
       description:
         "Maintain compliance with software licenses, regulatory requirements, and environmental standards.",

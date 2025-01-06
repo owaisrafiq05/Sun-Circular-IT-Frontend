@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import heartImage from "../../images/heart-image.webp";
+import heartImage from "../../images/heart-image.jpg";
 
 export default function WhyChooseITADSection() {
   return (

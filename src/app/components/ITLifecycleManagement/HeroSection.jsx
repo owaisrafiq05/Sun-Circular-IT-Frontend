@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import heroImg from "../../images/hero-bg-1.jpg";
+import heroImg from "../../images/hero-bg-2.jpg";
 
 export default function HeroSection() {
   return (

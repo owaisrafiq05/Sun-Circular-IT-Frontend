@@ -2,7 +2,11 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import img1 from "../../images/cirkel-acquire.svg";
+import img1 from "../../images/inventory.jpg";
+import img2 from "../../images/lifecycle-mg.jpg";
+import img3 from "../../images/data-sec.jpg";
+import img4 from "../../images/compliance.jpg";
+import img5 from "../../images/recycle.jpg";
 
 export default function ITAMServicesTabs() {
   const tabs = [
@@ -20,7 +24,7 @@ export default function ITAMServicesTabs() {
       description:
         "From procurement to retirement, we manage your IT assets at every stage to optimize their value and usage.",
       button: "Explore now",
-      activeImage: img1,
+      activeImage: img2,
     },
     {
       id: 3,
@@ -28,7 +32,7 @@ export default function ITAMServicesTabs() {
       description:
         "Our ITAM processes include robust measures for protecting sensitive data on IT hardware, especially during upgrades or decommissioning.",
       button: "Secure your assets",
-      activeImage: img1,
+      activeImage: img3,
     },
     {
       id: 4,
@@ -36,7 +40,7 @@ export default function ITAMServicesTabs() {
       description:
         "We ensure that your IT assets comply with software licensing agreements and environmental regulations, such as T11 WEEE requirements.",
       button: "Stay compliant",
-      activeImage: img1,
+      activeImage: img4,
     },
     {
       id: 5,
@@ -44,7 +48,7 @@ export default function ITAMServicesTabs() {
       description:
         "When it’s time to retire assets, we integrate ITAM with IT asset disposition (ITAD) to ensure secure and sustainable disposal.",
       button: "Recycle responsibly",
-      activeImage: img1,
+      activeImage: img5,
     },
   ];
 
