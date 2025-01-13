@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import personImage from "../../images/contact-us.png";
+import personImage from "../../images/contact-us.jpg";
 
 export default function ContactSection() {
   return (

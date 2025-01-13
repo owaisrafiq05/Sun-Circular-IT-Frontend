@@ -84,7 +84,7 @@ export default function Footer() {
                 className="group flex items-center text-gray-600 hover:text-[#db8f1b] text-base transition-colors duration-200"
               >
                 <MdEmail className="mr-2 text-lg" />
-                info@circularitgroup.com
+                info@suncircularit.com 
                 <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
               </a>
               <a
