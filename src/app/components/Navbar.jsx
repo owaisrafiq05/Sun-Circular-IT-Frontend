@@ -5,7 +5,6 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import { useRouter } from "next/navigation";
 import { HiMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
-import { FaArrowRight } from "react-icons/fa";
 import logo from "../images/logo.png";
 import Image from "next/image";
 
@@ -76,13 +75,13 @@ export default function Navbar() {
                       onClick={() => handleNavigation("/")}
                       className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
-                      Home <FaArrowRight className="inline-block" />
+                      Home 
                     </div>
                     <div
                       onClick={() => handleNavigation("/why-circular-it")}
                       className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
-                      Why Circular IT? <FaArrowRight className="inline-block" />
+                      Why Circular IT? 
                     </div>
                   </div>
                 </div>
@@ -112,7 +111,7 @@ export default function Navbar() {
                       className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       IT asset management{" "}
-                      <FaArrowRight className="inline-block" />
+                      
                     </div>
 
                     <div
@@ -120,7 +119,7 @@ export default function Navbar() {
                       className="text-2xl font-bold text-gray-800 hover:text-[#db8f1b] transition-colors duration-200 flex items-center gap-x-2 cursor-pointer"
                     >
                       IT asset disposition{" "}
-                      <FaArrowRight className="inline-block" />
+                      
                     </div>
                   </div>
                 </div>
@@ -180,13 +179,13 @@ export default function Navbar() {
                       onClick={() => handleNavigation("/")}
                       className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
-                      Home <FaArrowRight className="inline-block" />
+                      Home 
                     </div>
                     <div
                       onClick={() => handleNavigation("/why-circular-it")}
                       className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
-                      Why Circular IT? <FaArrowRight className="inline-block" />
+                      Why Circular IT? 
                     </div>
                   </div>
                 </div>
@@ -222,14 +221,14 @@ export default function Navbar() {
                       onClick={() => handleNavigation("/lifecycle-management")}
                       className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
-                      IT recycling <FaArrowRight className="inline-block" />
+                      IT recycling 
                     </div>
                     <div
                       onClick={() => handleNavigation("/it-asset-disposition")}
                       className="text-black text-lg font-semibold flex items-center gap-x-2 cursor-pointer hover:text-[#db8f1b] transition-colors duration-200"
                     >
                       IT asset disposition{" "}
-                      <FaArrowRight className="inline-block" />
+                      
                     </div>
                   </div>
                 </div>
