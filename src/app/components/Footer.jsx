@@ -80,7 +80,7 @@ export default function Footer() {
             </h3>
             <div className="space-y-4">
               <a
-                href="mailto:info@circularitgroup.com"
+                href="mailto:info@suncircularit.com"
                 className="group flex items-center text-gray-600 hover:text-[#db8f1b] text-base transition-colors duration-200"
               >
                 <MdEmail className="mr-2 text-lg" />
@@ -88,7 +88,7 @@ export default function Footer() {
                 <FaArrowRight className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
               </a>
               <a
-                href="tel:+31889907500"
+                href="tel:02034321143"
                 className="group flex items-center text-gray-600 hover:text-[#db8f1b] text-base transition-colors duration-200"
               >
                 <MdPhone className="mr-2 text-lg" />
